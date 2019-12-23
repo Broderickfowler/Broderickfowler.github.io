@@ -1,0 +1,20 @@
+# Site settings
+author: Broderick  Fowler Jr
+title: 
+header-img: img/home-bg.png
+email: broderickfowler@outlook.com
+copyright_name: Broderick  Fowler Jr
+description: > # this means to ignore newlines until "baseurl:"
+  
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: 
+github_username:  Broderickfowler
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
